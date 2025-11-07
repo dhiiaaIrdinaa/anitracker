@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Review</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="review-container">
+
+      <div class="anime-review-card">
+        <img id="animeImage" alt="Anime Poster">
+        <h2 id="animeTitle"></h2>
+        <textarea id="reviewText" placeholder="Write your review here..."></textarea>
+        <div class="review-btn-container">
+          <button id="saveReview" class="save-btn">💾 Save Review</button>
+          <button class="back-btn">⬅ Back</button>
+        </div>
+      </div>
+
+      <div class="my-review-list">
+        <h2>My Reviews</h2>
+        <div id="reviewList"></div>
+      </div>
+
+    </div>
+
+    <script src="review.js"></script>
+    <script src="navigation.js"></script>
+
+  </body>
+</html>

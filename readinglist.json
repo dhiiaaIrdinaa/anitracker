@@ -1,0 +1,23 @@
+[
+  {
+    "mal_id": 115710,
+    "id": 115710,
+    "title": "Jujutsu Kaisen 0: Tokyo Toritsu Jujutsu Koutou Senmon Gakkou",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/manga/2/219336.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/manga/2/219336t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/manga/2/219336l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/manga/2/219336.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/manga/2/219336t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/manga/2/219336l.webp"
+      }
+    },
+    "chapters": 4,
+    "chaptersRead": 0,
+    "status": "Reading",
+    "userRating": null
+  }
+]

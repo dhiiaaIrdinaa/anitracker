@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Manga Reading List</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>My Manga Reading List</h1>
+    <div id="readingList" class="readinglist-grid"></div>
+
+    <template id="readinglist-template">
+      <div class="watchlist-card">
+        <img class="poster" src="" alt="Poster">
+        <div class="title"></div>
+        <div class="readinglist-form">
+          <label>Chapters: <input type="number" class="chaptersInput"></label>
+          <label>Rating: <input type="number" class="ratingInput"></label>
+          <label>Status:
+            <select class="statusSelect">
+              <option value="Reading">Reading</option>
+              <option value="Completed">Completed</option>
+              <option value="On-Hold">On-Hold</option>
+              <option value="Dropped">Dropped</option>
+            </select>
+          </label>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+        <div class="card-btns">
+          <button class="saveBtn">Save</button>
+          <button class="deleteBtn">Delete</button>
+        </div>
+      </div>
+    </template>
+
+    <script src="readinglist.js"></script>
+    <script src="navigation.js"></script>
+  </body>
+</html>

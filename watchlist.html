@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Watchlist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Watchlist</h1>
+  <div id="list" class="watchlist-grid"></div>
+
+  <template id="watchlist-template">
+    <div class="watchlist-card">
+      <img class="poster" src="" alt="Poster">
+      <div class="title"></div>
+      <div class="watchlist-form">
+        <label>
+          Episodes: <input type="number" class="episodesInput">
+        </label>
+        <label>
+          Rating: <input type="number" class="ratingInput">
+        </label>
+        <label>
+          Status:
+          <select class="statusSelect">
+            <option value="Watching">Watching</option>
+            <option value="Completed">Completed</option>
+            <option value="On-Hold">On-Hold</option>
+            <option value="Dropped">Dropped</option>
+          </select>
+        </label>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar"></div>
+      </div>
+      <div class="card-btns">
+        <button class="saveBtn">Save</button>
+        <button class="deleteBtn">Delete</button>
+      </div>
+    </div>
+  </template>
+
+  <script src="watchlist.js"></script>
+  <script src="navigation.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+  {
+    "mal_id": 1367,
+    "id": 1367,
+    "title": "Meitantei Conan Movie 08: Ginyoku no Magician",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/2/20982.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/2/20982t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/2/20982l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/2/20982.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/2/20982t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/2/20982l.webp"
+      }
+    },
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 7,
+        "type": "anime",
+        "name": "Mystery",
+        "url": "https://myanimelist.net/anime/genre/7/Mystery"
+      }
+    ],
+    "score": 8.05,
+    "episodes": 1,
+    "status": "Watching",
+    "episodesWatched": 0,
+    "userRating": null
+  }
+]
